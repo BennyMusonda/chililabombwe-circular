@@ -1,5 +1,7 @@
 #  Chililabombwe Circular
 
+🌐 **[View Live Demo](https://bennymusonda.github.io/chililabombwe-circular/)**
+
 ### Turning waste into value, one community at a time.
 
 Chililabombwe Circular is a community-based digital platform designed to connect **residents, businesses and waste collectors** to make waste collection, recycling and recovery easier and more valuable.
@@ -69,7 +71,7 @@ Users can report recyclable waste and provide information such as:
 * Location
 * Description
 
-### 🚛 Collection Requests
+###  Collection Requests
 
 Residents and businesses can request collection of reported recyclable materials.
 
@@ -346,24 +348,25 @@ No real credentials should be committed to this repository.
 
 ##  Screenshots
 
-Screenshots of the working prototype will be added here.
-
 ### Homepage
 
-*Add homepage screenshot here.*
+![Chililabombwe Circular Homepage](screenshots/homepage.png)
 
-### Registration
+### Community Impact
 
-*Add registration screenshot here.*
-
-### Login
-
-*Add login screenshot here.*
+![Community Impact](screenshots/impact.png)
 
 ### Collection Points
 
-*Add collection points screenshot here.*
+![Collection Points](screenshots/collection-points.png)
 
+### Registration
+
+![Registration](screenshots/register.png)
+
+### Login
+
+![Login](screenshots/login.png)
 ---
 
 ##  Project Status

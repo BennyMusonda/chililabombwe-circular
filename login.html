@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- PAGE SETTINGS -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Login - Chililabombwe Circular</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
+</head>
+
+
+<body class="auth-body">
+
+
+    <!-- NAVIGATION -->
+
+    <header class="navbar">
+
+        <div class="container nav-content">
+
+            <a href="index.html" class="logo">
+
+                <span class="logo-icon"><i class="fa-solid fa-leaf"></i></span>
+
+                <span>
+                    Chililabombwe <strong>Circular</strong>
+                </span>
+
+            </a>
+
+            <a href="index.html" class="back-link">
+                <i class="fa-solid fa-angle-left"></i>
+                Back to Home
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- LOGIN -->
+
+    <main class="auth-container">
+
+        <div class="auth-box">
+
+            <div class="auth-header">
+
+                <div class="auth-icon">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+
+                <span class="section-label">
+                    WELCOME BACK
+                </span>
+
+                <h1>
+                    Login
+                </h1>
+
+                <p>
+                    Continue your circular journey.
+                </p>
+
+            </div>
+
+
+            <form id="loginForm">
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="you@example.com"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="password">
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter your password"
+                        required
+                    >
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="btn btn-primary full-width"
+                >
+                    Login
+                </button>
+
+
+                <div id="loginMessage"></div>
+
+
+            </form>
+
+
+            <p class="auth-footer">
+
+                Don't have an account?
+
+                <a href="register.html">
+                    Create one
+                </a>
+
+            </p>
+
+        </div>
+
+    </main>
+
+
+    <script>
+
+        // LOGIN DEMO
+
+        const loginForm =
+            document.getElementById("loginForm");
+
+        loginForm.addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+            const message =
+                document.getElementById("loginMessage");
+
+            message.className = "success-message";
+
+            message.innerHTML =
+                "✓ Demo login successful! Dashboard functionality will be connected to the backend in the full MVP.";
+
+        });
+
+    </script>
+
+</body>
+
+</html>

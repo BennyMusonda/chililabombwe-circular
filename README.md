@@ -193,8 +193,6 @@ The planned full system follows this structure:
 
 ---
 
-##  Hackathon Concept
-
 ### Theme
 
 **Waste to Value & Circular Economy**
@@ -341,8 +339,6 @@ The planned backend uses secure practices including:
 * Server-side validation
 * Parameterized SQL queries
 * Role-based access control
-
-No real credentials should be committed to this repository.
 
 ---
 
